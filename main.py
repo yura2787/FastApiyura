@@ -3,8 +3,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get('/')
+@app.get("/")
 def index():
-    return {'status': 'OK lll'}
-
-
+    return {"status": "OK lll"}
